@@ -44,5 +44,6 @@ result = switcher.get(value,lambda:"unknown")()
 print(result)
 
 
-
+//extra question
+//prime or not
 
