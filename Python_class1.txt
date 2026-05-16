@@ -1,0 +1,48 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+1.Addition of two numbers 
+
+num1=10
+num2=20
+result=num1+num2
+print(f"The sum is:{result}")
+
+2.Addition
+
+import operator
+print(operator.add(10,20))
+
+3.Even or odd 
+
+# Get a number from the user and convert it to an integer
+num = int(input("Enter a number: "))
+
+# Check if the remainder is zero
+if num % 2 == 0:
+    print(f"{num} is Even")
+else:
+    print(f"{num} is Odd")
+
+4.switch case 
+
+def one():
+    return "one"
+def two():
+    return "two"
+def three():
+    return "three"
+    
+switcher = {
+    1:one,
+    2:two,
+    3:three
+    
+}   
+value =2
+result = switcher.get(value,lambda:"unknown")()
+print(result)
+
+
+
+
